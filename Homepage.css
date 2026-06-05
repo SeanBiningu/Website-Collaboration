@@ -210,5 +210,201 @@ span{
     margin-top: 13.7%;
 }
 
+/* ===== RESET ===== */
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+}
+
+/* ===== NAVBAR ===== */
+
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+
+    padding:20px 8%;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    background:rgba(0,0,0,0.3);
+    backdrop-filter:blur(5px);
+
+    z-index:1000;
+}
+
+.logo{
+    color:red;
+    font-size:32px;
+    font-weight:bold;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap:15px;
+}
+
+.nav-links a{
+    display:inline-block;
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:500;
+    transition:0.3s;
+}
+
+.nav-links a:hover{
+    color:red;
+    transform:translateY(-2px);
+}
+
+/* ===== CONTACT SECTION ===== */
+
+.contact-section{
+    min-height:100vh;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.75),
+        rgba(0,0,0,0.75)
+    ),
+    url('gym.jpg');
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    padding:50px;
+}
+
+.contact-container{
+    margin-left: 22%;
+    width:100%;
+    max-width:700px;
+    text-align:center;
+    margin-top:80px;
+}
+
+.contact-container h2{
+    color:white;
+    font-size:48px;
+    margin-bottom:15px;
+}
+
+.contact-container p{
+    color:#ddd;
+    font-size:18px;
+    margin-bottom:30px;
+}
+
+/* ===== FORM ===== */
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+input,
+textarea{
+    padding:15px;
+    border:none;
+    border-radius:5px;
+
+    background:rgba(255,255,255,0.1);
+    color:white;
+
+    font-size:16px;
+    outline:none;
+}
+
+input::placeholder,
+textarea::placeholder{
+    color:#ccc;
+}
+
+input:focus,
+textarea:focus{
+    border:1px solid red;
+}
+
+/* ===== BUTTON ===== */
+
+button{
+    background:red;
+    color:white;
+
+    border:none;
+    border-radius:5px;
+
+    padding:15px;
+
+    font-size:18px;
+    font-weight:bold;
+
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#cc0000;
+    transform:scale(1.03);
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+
+@media(max-width:768px){
+
+    .navbar{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .nav-links{
+        gap:15px;
+    }
+
+    .contact-container h2{
+        font-size:36px;
+    }
+
+    .contact-container p{
+        font-size:16px;
+    }
+    footer{
+        width: 100%;
+        background:#111;
+    color:white;
+    text-align:center;
+    padding:20px 0;
+
+    body{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    margin:0;
+}
+
+main{
+    flex:1;
+}
+
+
+
+    }
+}
 
