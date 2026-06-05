@@ -163,3 +163,52 @@ height: 100vh;
     background-color: red;
     transform: translateY(-5px);
 }
+
+
+
+/* ==============SEVICES PAGE ==================*/
+
+.AboutUs{
+    color: white;
+}
+span{
+    color: red;
+}
+.boxs{
+    background-color: rgba(0, 0, 0, 0.856);
+    width: 20%; height: 20vh;
+    border-radius: 5px;
+    
+    
+}
+
+
+.boxs h4{
+    display: flex;
+    justify-self: center;
+    color: red;
+    padding: 20px;
+}
+
+.boxs p{
+    display: flex;
+    justify-self: center;
+    color:white;
+    
+}
+.cards{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+.footer{
+    margin-top: 90px;
+}
+.foote{
+    margin-top: 13.7%;
+}
+
+
+
