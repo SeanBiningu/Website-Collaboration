@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background-image: url("./ChatGPT\ Image\ Jun\ 4\,\ 2026\,\ 06_31_46\ PM.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* musoro wenyaya */
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:rgba(0, 0, 0, 0.578);
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#9f0f08;
+    
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+nav a:hover{
+    color:red;
+}
+
+/* Hero */
+.hero{
+    height:80vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:20px;
+}
+
+.content h1{
+    font-size:60px;
+    margin-bottom:15px;
+    color: aliceblue;
+}
+
+.content p{
+    font-size:18px;
+    margin-bottom:25px;
+    color: aliceblue;
+}
+
+.btn{
+    background: red;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background: rgba(223, 215, 215, 0.774);
+    transform: scale(1.05);
+    color: #ff3131;
+}
+
+/* Features */
+.features{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    padding:60px 8%;
+}
+
+.box{
+    background:rgba(0, 0, 0, 0.564);
+    width:280px;
+    padding:25px;
+    text-align:center;
+    border-radius:10px;
+    color: aliceblue;
+}
+
+.box h3{
+    margin-bottom:10px;
+    color:red;
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    padding:20px;
+    background:rgba(0, 0, 0, 0.53);
+    color: aliceblue;
+}
